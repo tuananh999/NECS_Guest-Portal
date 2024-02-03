@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="asset/styles.css">
+    <title>Form Login NECS</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-box">
+            <!-- Login left -->
+            <div class="form-value">
+                <form action="">
+
+                    <h1> Sign In </h1>
+
+                    <!-- Username -->
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <input type="username" placeholder="Username" required>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+
+                    <!-- Captcha Input -->
+                    <div class="inputbox captcha_input">
+                        <input type="text" placeholder="Enter Captcha">
+                    </div>
+
+                    <!-- Captcha Message -->
+                    <div class="message">
+                        Entered captcha is correct
+                    </div>
+
+                    <!-- Captcha Box -->
+                    <div class="inputbox captcha_box">
+                        <ion-icon name="sync-outline" class="refresh_captcha"></ion-icon>
+                        <input type="text" value="5 z 8 9 u">
+                    </div>
+
+                    <div class="forget">
+                        <div class="forget__left">
+                            <input type="checkbox">
+                            <span>Remember Me</span>
+                        </div>
+                        <a href="#">Forget Password </a>
+                    </div>
+                    <div class="button disabled">
+                        <button>Log in</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Login Right -->
+            <div class="login-right">
+                <div class="image">
+                    <img src="./asset/img/necs-logo.svg" alt="Logo-NECS">
+                </div>
+                <div class="text-title">
+                    <h1 class="title">GUEST PORTAL </h1>
+                    <h2>Welcome </h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./asset/script.js"></script>
+</body>
+
+</html>
